@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    font-size: 35px;
+    color: black;
+    font-weight: 600;
+    line-height: 80px;
+
+}
+nav{
+    max-width: 1200px;
+    margin: auto;
+    height: 80px;
+}
+.links{
+    float: right;
+    margin-right: 30px;
+}
+.links li{
+    color: white;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+    line-height: 80px;
+}
+.links li a{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+.links li a:hover{
+    background: blueviolet;
+}
+.checkbtn{
+    float: right;
+    font-size: 20px;
+    color: black;
+    line-height: 80px;
+    display: none;
+}
+#check{
+    display: none;
+}
+.midtext{
+    padding: 60px;
+    font-size: 15px;
+    position: absolute;
+    left: 45%;
+    top: 43%;
+    transform: translate(-50%,-50%);
+    color: black
+}
+.forheader{
+    background-image: url(../1/glenn-carstens-peters-npxXWgQ33ZQ-unsplash\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+}
+.midtext button{
+    margin-top: 5%;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border: 0px;
+    border-radius: 20px;
+    width: 140px;
+}
+.midtext button:hover{
+    background: rgb(211, 211, 211);
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.container1{
+    max-width: 1200px;
+    margin: auto;
+
+}
+.midtext1{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10%;
+}
+.midtext1 h5{
+    color: blueviolet;
+}
+.box-container{
+    display: flex;
+    text-align: center;
+    margin-top: 35px;
+    gap: 20px;
+    padding: 25px;
+}
+.box-container img{
+    height: 70px;
+}
+.box-item{
+    padding: 20px;
+    border: 1px solid grey;
+    box-shadow: 0 0 1px 0;
+}
+.box-item h3{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.midtext2{
+    margin-top: 10%;
+    text-align: center;
+}
+.midtext2 p{
+    color: rgb(54, 52, 52);
+    padding-bottom: 50px;
+}
+.grid-1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-item img{
+    width: 95%;
+    height: 95%;
+}
+.forimg{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.rightimg{
+    margin-top: 25%;
+}
+.rightimg img
+{
+    width: 100%;
+    border-radius: 15px;
+}
+.midtext3{
+    margin-top: 30%;
+    padding: 100px;
+
+}
+.button{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+.button button{
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border: 0px;
+    border-radius: 20px;
+    width: 35px;
+}
+.button button:hover{
+    background: rgb(211, 211, 211);
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.forth{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10%;
+}
+.image1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.midtext4{
+    color: white;
+    background-color: black;
+    padding-left: 70px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.midtext4 button{
+    margin-top: 1%;
+    padding: 10px;
+    background-color: rgb(133, 65, 197);
+    color: white;
+    border: 0px;
+    border-radius: 25px;
+    width: 110px;
+}
+.midtext4 button:hover{
+    background: rgb(211, 211, 211);
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.midtext4 h3{
+    padding-top: 30px;
+    font-size: 15px;
+}
+.midtext5{
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.profiles{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.grid-items2 img{
+    width: 95%;
+}
+.grid-items2 h3{
+    padding-top: 10px;
+}
+.grid-items2 p{
+    padding-top: 5px;
+}
+.sixth{
+    margin-top: 10%;
+    background-image: url(../1/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 75vh;
+    text-align: center;
+}
+.midtext7{
+    padding-top: 500px;
+    font-size: 20px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(255, 255, 255)
+}
+.qoates h1{
+    font-size: 60px;
+}
+.owner h3{
+    font-size: 15px;
+}
+.owner p{
+    padding-top: 5px;
+    font-size: 10px;
+}
+.owner img{
+    height: 30px;
+    width: 30px;
+    border-radius: 25px;
+}
+.midtext8{
+    text-align: center;
+    margin-top: 10%;
+    padding-bottom: 50px;
+}
+.form{
+    text-align: center;
+}
+.fornames input{
+    margin-bottom: 2%;
+    width: 81%;
+    border: 1px;
+    border-radius: 25px;
+    box-shadow: 0 0 1px 0;
+}
+.fornames{
+    padding-bottom: 25px;
+}
+.messages textarea{
+    width: 81%;
+    border: 1px;
+    border-radius: 25px;
+    box-shadow: 0 0 1px 0;
+    padding-top: 1%;
+    margin-bottom: 1%;
+    
+}
+.submit button{
+    width: 81%;
+    border-radius: 25px;
+    box-shadow: 0 0 1px 0;
+    margin-left: 0.5%;
+    padding: 10px;
+    margin-bottom: 5%;
+    background-color: rgb(133, 65, 197);
+    color: white;
+    border: 0px;
+}
+.submit button:hover{
+    background: rgb(211, 211, 211);
+    border-radius: 25px;
+    transition: 0.3s;
+}
+.sub input{
+    margin-bottom: 0%;    
+}
+.fornames input{
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+.bottom{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+.bottom p{
+    margin-top: 10%;
+    font-size: 12px;
+    padding-top: 20px;
+    border-top: 0.5px solid white;
+}
+.body{
+    font-family: 'Lucida Sans';
+    font-size: 12px;
+    background-color: rgb(207, 205, 205);
+}
+@media screen and (max-width:992px){
+    .logo{
+        padding: 0 30px;
+    }
+}
+@media screen and (max-width:767px){
+    .links{
+        position: absolute;
+        background: white;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        text-align: right;
+        transition: all 0.4s;
+    }
+    .links li{
+        display: block;
+    }
+    .checkbtn{
+        display: block;
+    }
+    #check:checked ~ .links{
+        left: 0;
+    }
+    .box-container{
+        display: block;
+        margin-top: 50px;
+    }
+    .grid-1{
+        display: block;
+    }
+    .grid-item img {
+        width: 100%;
+        height: 100%;
+    }
+    .grid-2{
+        display: block;
+    }
+    .midtext3 {
+        margin-top: 10%;
+        padding: 0px;
+    }
+    .forimg {
+        display: block;
+    }
+    .forth {
+        margin-top: 20%;
+        display: block
+    }
+    .midtext4{
+       padding: 50px;
+    }
+    .profiles{
+        display: block;
+    }
+    .grid-items2 img{
+        width: 100%;
+        padding-top: 15px;
+    }
+    .midtext7{
+        left: 0%;
+        padding: 120px;
+        transform: translate(0%,0%);
+        font-size: 13px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    .links{
+        position: absolute;
+        background: whitesmoke;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        text-align: right;
+        transition: all 0.4s;
+    }
+    .links li{
+        display: block;
+    }
+    .checkbtn{
+        display: block;
+    }
+    #check:checked ~ .links{
+        left: 0;
+    }
+    .box-container{
+        display: block;
+        margin-top: 50px;
+    }
+    .grid-1{
+        display: block;
+    }
+    .grid-item img {
+        width: 100%;
+        height: 100%;
+    }
+    .grid-2{
+        display: block;
+    }
+    .midtext3 {
+        margin-top: 10%;
+        padding: 0px;
+    }
+    .forimg {
+        display: block;
+    }
+    .forth {
+        margin-top: 20%;
+        display: block
+    }
+    .midtext4{
+       padding: 50px;
+    }
+    .profiles{
+        display: block;
+    }
+    .grid-items2 img{
+        width: 100%;
+        padding-top: 15px;
+    }
+    .midtext7{
+        left: 0%;
+        padding: 130px;
+        transform: translate(0%,0%);
+        font-size: 20px;
+    }
+}
